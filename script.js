@@ -12,3 +12,10 @@ function firstWord(s) {
 
 const s = prompt("Enter String:");
 alert(firstWord(s));
+
+function firstWord(s) {
+	let trimStr=s.trim();
+	let words=trimStr.split(" ");
+	return words[0];
+}
+console.log(firstword(s));
