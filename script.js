@@ -3,3 +3,4 @@ function firstWord(s) {
 	let words=trimStr.split(" ");
 	return words[0];
 }
+console.log(firstWord(s));
